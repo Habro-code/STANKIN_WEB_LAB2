@@ -1,0 +1,108 @@
+.notice {
+  background-color: var(--color__background-error);
+}
+
+.notice-bocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notice p {
+  color: var(--color__inverse);
+  font-weight: 400;
+  font-size: 13px;
+  margin: 16px 0;
+}
+
+.notice img {
+  cursor: pointer;
+}
+
+.notice span {
+  font-weight: 700;
+}
+
+
+.hero-main {
+  background: url('../assets/img/hero-beckround.webp');
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+  height: auto;
+  padding: 80px 0;
+}
+
+.hero-main h2{
+  color: var(--color__inverse);
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.hero-main__description{
+  color: var(--color__inverse);
+  font-weight: 400;
+  font-size: 21px;
+  width: 680pax;
+  margin-bottom: 48px;
+}
+.mini-cards {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+  
+}
+
+.mini-cards__item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 416px;
+  background-color: var(--color__background-accent-darker);
+}
+
+.mini-cards__item img{
+  height: 80px;
+}
+
+.mini-cards__item p{
+  margin-left: 24px;
+  color: var(--color__inverse);
+  font-weight: 600;
+  font-size: 18px;
+  
+}
+
+.hero-main__buttons {
+  
+  display: flex;
+  gap: 24px;
+
+}
+
+.button__while {
+  width: 174px;
+  height: 48px;
+  background-color: var(--color__inverse);
+  color: var(--color__primery);
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.button__transparent {
+  width: 174px;
+  height: 48px;
+  border-radius: 4px;
+  border: solid var(--color__inverse);
+  color: var(--color__inverse);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1380px) {
+  .hero-main__description{
+  width: auto;
+  
+}
+}

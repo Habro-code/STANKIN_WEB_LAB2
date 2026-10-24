@@ -1,0 +1,149 @@
+.footer {
+  background-color: var(--color__background-footer);
+  padding: 40px 0;
+  color: var(--color__inverse);
+}
+
+.footer__logoName {
+  display: flex;
+  gap: 40px;
+}
+
+.footer__mueso {
+  width: 335px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer__logoName-text {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+  position: relative;
+}
+
+.footer__links::before {
+  content: '';
+  position: absolute;
+  bottom: -40px; 
+  left: 0; 
+  width: 100%; 
+  height: 1px; 
+  background-color: #262626;
+}
+
+.footer-links__card {
+  width: 220px;
+}
+
+.footer-links__title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.footer-links__links{
+ display: flex;
+ flex-direction: column;
+ justify-content: start;
+ gap: 8px;
+}
+
+.footer-links__link {
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+}
+
+.footer-links__link::before {
+  content: '';
+  position: absolute;
+  bottom: 3px; 
+  left: 0; 
+  width: 100%; 
+  height: 1px; 
+  background-color: var(--color__inverse);
+}
+
+
+.footer__contact-and-follow {
+  position: relative;
+  display: flex;
+  padding: 40px 0;
+  gap: 24px
+}
+
+.footer__contact-and-follow__contatti {
+  width: 500px;
+}
+
+.footer__contact-and-follow__title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.footer__contact-and-follow__contatti-dec {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.footer__contact-and-follow__contatti-links{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer__contact-and-follow__contatti-link {
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+}
+
+.footer__contact-and-follow__contatti-link::before {
+  content: '';
+  position: absolute;
+  bottom: 3px; 
+  left: 0; 
+  width: 100%; 
+  height: 1px; 
+  background-color: var(--color__inverse);
+}
+
+.footer__contact-and-follow__seguci-su img{
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+.footer__contact-and-follow::before {
+  content: '';
+  position: absolute;
+  bottom: 0px; 
+  left: 0; 
+  width: 100%; 
+  height: 1px; 
+  background-color: #262626;
+}
+
+.footer__faq {
+  display: flex;
+  padding-top: 24px;
+  gap: 24px;
+}
+
+.footer__faq__text {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1380px) {
+  .footer__mueso img {
+    height: 35px;
+}
+}

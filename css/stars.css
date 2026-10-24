@@ -1,0 +1,35 @@
+.stars-section {
+  background-color: var(--color__background-accent-darker);
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.stars-section__while-blok {
+  background-color: var(--color__inverse);
+  padding: 24px;
+}
+
+.stars-section__text {
+  margin-bottom: 17px;
+  color: var(--color__text-base);
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.stars-section__stars{
+  display: flex;
+  flex-direction: row-reverse; /* Разворачиваем визуально */
+  justify-content: flex-end; /* Прижимаем влево */
+  gap: 8px;
+}
+
+.stars-section__star{
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.stars-section__star:hover,
+.stars-section__star:hover ~ .stars-section__star {
+  transform: scale(1.4);
+}

@@ -1,0 +1,40 @@
+.want-to-support {
+  background: url("../assets/img/want-to-support.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+}
+
+.want-to-support__container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.want-to-support__center-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.want-to-support__title {
+  color: var(--color__inverse);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.want-to-support__dec {
+  color: var(--color__inverse);
+  font-weight: 400;
+  font-size: 16px;
+  margin: 16px 0 32px;
+}
+
+.want-to-support__button {
+  background-color: var(--color__inverse);
+  color: var(--color__text-accent);
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 24px;
+  border-radius: 4px;
+}

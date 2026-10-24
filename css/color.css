@@ -1,0 +1,20 @@
+:root {
+    --color__primery: #333;
+    --color__inverse: #FFF;
+    --color__inverse_active: #b1b1b1;
+
+    --color__text-base: #1A1A1A;
+    --color__text-secondery: #2F475E;
+    --color__text-accent: #7D2670;
+    --color__text-muted: #5C6F82;
+
+    --color__background-accent: #7D2670;
+    --color__background-accent-darker: #46163F;
+    --color__background-accent-lightest: #FBF9FB;
+    --color__background-inverse: #FFFFFF;
+    --color__background-error: #CC334D;
+    --color__background-lightest: #FBF9FB;
+    --color__background-button-lightest: #f5edf4;
+    --color__background-midlight: #f5edf4;
+    --color__background-footer: #050505;
+}
